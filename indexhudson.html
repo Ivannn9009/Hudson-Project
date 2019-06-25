@@ -1,0 +1,2302 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontsawesome/css/all.css" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Hudson</title>
+
+</head>
+<body>
+
+    <div class="fixed-left header-box-links hidden-xs">
+        <div class="dropdown dropdown-links">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <div class="dropdown">
+                    <div class="header-quicklink">
+                        <span class="quick-link">QUICK LINKS</span>
+                        <i style="font-size: 14px;" class="fas fa-angle-left"></i>
+                    </div>
+                </div>
+            </a>
+            <ul class="dropdown-menu header-dropdown-links row">
+                <li class="endcrosslinks"><div class="cross_fixed"><i class="fas fa-times cross_hover"></i></div></li>
+                <li class=""><a href="#"><i class="far fa-paper-plane" style="color:white;"> <span class="dropdown-links-in-first">Submit<br /><span class="dropdown-links-in">Inquiry</span></span></i></a></li>
+                <li><a href="#"><i class="fas fa-search" style="color: white;"> <span class="dropdown-links-in-first">Search<br /><span class="dropdown-links-in">Job</span></span></i></a></li>
+                <li><a href="#"><i class="far fa-edit" style="color: white;"> <span class="dropdown-links-in-first">Submit<br /><span class="dropdown-links-in"> Resume</span></span></i></a></li>
+                <li><a href="#"><i class="far fa-bell" style="color: white;"> <span class="dropdown-links-in-first">Create<br /><span class="dropdown-links-in"> Job Alert</span></span></i></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <header class="banner">
+        <div class="top-nav">
+            <div class="container nav_container">
+                <div class="row"></div>
+                <div class="navbar-header hidden-sm hidden-md hidden-lg">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-button" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--Button for mobile-->
+                    <div class="collapse navbar-collapse" id="mobile-button">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown mobile-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: AkzidGroProBol;">JOB SEEKERS <i class="fas fa-angle-down mob-menu"></i></a>
+                                <ul class="dropdown-menu dropdown-second">
+                                    <li><a tabindex="-1" href="#">Job Search</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="test" tabindex="-1" href="#">Contracting with Hudson <i class="fas fa-angle-down mob-menu"></i></a>
+                                        <ul class="dropdown-menu dropdown-second-part" id="dropdown-second-part">
+                                            <li><a href="#">Contracting FAQ's</a></li>
+                                            <li><a href="#">Timesheet Portal</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a tabindex="-1" href="#">Career Advice</a></li>
+                                    <li><a tabindex="-1" href="#">Working in Australia</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown mobile-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: AkzidGroProBol;">WHAT WE DO <i class="fas fa-angle-down mob-menu"></i></a>
+                                <ul class="dropdown-menu dropdown-second">
+                                    <li><a tabindex="-1" href="#">Job Search</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Contracting with Hudson <i class="fas fa-angle-down mob-menu"></i></a>
+                                        <ul class="dropdown-menu dropdown-second-part" id="dropdown-second-part">
+                                            <li><a tabindex="-1" href="#">Contracting FAQ's</a></li>
+                                            <li><a tabindex="-1" href="#">Timesheet Portal</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Career Advice</a></li>
+                                    <li><a href="#">Working in Australia</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown mobile-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: AkzidGroProBol;">INSIGHTS <i class="fas fa-angle-down mob-menu"></i></a>
+                                <ul class="dropdown-menu dropdown-second">
+                                    <li><a tabindex="-1" href="#">Job Search</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Contracting with Hudson <i class="fas fa-angle-down mob-menu"></i></a>
+                                        <ul class="dropdown-menu dropdown-second-part" id="dropdown-second-part">
+                                            <li><a tabindex="-1" href="#">Contracting FAQ's</a></li>
+                                            <li><a tabindex="-1" href="#">Timesheet Portal</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a tabindex="-1" href="#">Career Advice</a></li>
+                                    <li><a tabindex="-1" href="#">Working in Australia</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown mobile-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: AkzidGroProBol;">ABOUT US <i class="fas fa-angle-down mob-menu"></i></a>
+                                <ul class="dropdown-menu dropdown-second">
+                                    <li><a tabindex="-1" href="#">Job Search</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Contracting with Hudson <i class="fas fa-angle-down mob-menu"></i></a>
+                                        <ul class="dropdown-menu dropdown-second-part" id="dropdown-second-part">
+                                            <li><a tabindex="-1" href="#">Contracting FAQ's</a></li>
+                                            <li><a tabindex="-1" href="#">Timesheet Portal</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a tabindex="-1" href="#">Career Advice</a></li>
+                                    <li><a tabindex="-1" href="#">Working in Australia</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown mobile-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: AkzidGroProBol">JOIN HUDSON <i class="fas fa-angle-down mob-menu"></i></a>
+                                <ul class="dropdown-menu dropdown-second">
+                                    <li><a tabindex="-1" href="#">Job Search</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Contracting with Hudson <i class="fas fa-angle-down mob-menu"></i></a>
+                                        <ul class="dropdown-menu dropdown-second-part" id="dropdown-second-part">
+                                            <li><a tabindex="-1" href="#">Contracting FAQ's</a></li>
+                                            <li><a tabindex="-1" href="#">Timesheet Portal</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a tabindex="-1" href="#">Career Advice</a></li>
+                                    <li><a tabindex="-1" href="#">Working in Australia</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown mobile-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: AkzidGroProBol;">CONTACT US <i class="fas fa-angle-down mob-menu"></i></a>
+                                <ul class="dropdown-menu dropdown-second">
+                                    <li><a tabindex="-1" href="#">Job Search</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="test" href="#">Contracting with Hudson <i class="fas fa-angle-down mob-menu"></i></a>
+                                        <ul class="dropdown-menu dropdown-second-part" id="dropdown-second-part">
+                                            <li><a tabindex="-1" href="#">Contracting FAQ's</a></li>
+                                            <li><a tabindex="-1" href="#">Timesheet Portal</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a tabindex="-1" href="#">Career Advice</a></li>
+                                    <li><a tabindex="-1" href="#">Working in Australia</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="mobile-menu-rectangle-last">
+                                <ul class="last-rectangle">
+                                    <li class="mobile-rectangle first">
+                                        <a class="last-parth" href="#">SIGN IN</a><span class="straight-line"> | </span>
+                                        <a class="last-parth" href="#">REGISTER</a>
+                                    </li>
+                                    <li class="mobile-rectangle second">
+                                        <a class="last-parth" href="#"><i class="far fa-calendar-alt"></i></a>
+                                        <a class="last-parth" href="#">TIMESHEET</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--End-->
+                </div>
+                <a href="#" class="navbar-logo hudson"><img src="images/logotopnavbar.png"></a>
+                <nav class="navbar  hidden-xs">
+                    <ul class="nav navbar-nav navbar-left col-md-2">
+                        <li class=""><a href="#"><i class="far fa-calendar-alt"></i></a></li>
+                        <li class="timesheet size-md"><a href="#">TIMESHEET</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="social-icon-nav">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="social-icon-nav">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="social-icon-nav">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social-icon-nav">
+                            <a href="#" class="nav-link waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social-icon-nav">
+                            <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                        </li>
+                        <li class="sign_in"><a href="#">REGISTER</a><span class="separator"></span></li>
+                        <li class="straight-line-topnav"> | </li>
+                        <li class="sign_in text-piped"><a href="#">SIGN IN</a><span class="separator"></span></li>
+                        <li class="straight-line-topnav"> | </li>
+                        <li class="sign_in">
+                            <div class="dropdown" style="padding: 10px;">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    AU
+                                    <i class="fas fa-angle-down" style="font-size: 16px; margin-left: 5px;"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">BG</a></li>
+                                    <li><a href="#">EN</a></li>
+                                    <li><a href="#">FR</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="bigmenuhover hidden-xs">
+            <div class="container main-menu">
+                <div class="navbar-header">
+
+                    <a href="#" class="navbar-brand logo"><img src="images/logo.png"></a>
+                </div>
+
+                <div class="collapse navbar-collapse collapse_position" id="bs-nav-demo">
+                    <ul class="nav navbar-nav navigationbig-hover">
+
+                        <li class="dropdown main-custom">
+                            <a href="#" class="dropdown-toggle size-md" data-toggle="dropdown" role="button">JOB SEEKERS</a>
+                            <div class="dropdown-menu biggestmenu">
+                                <div class="container main-menu">
+                                    <div class="triangle-up-job"></div>
+                                    <div class="big-menu-hover">
+                                        <div class="row">
+
+                                            <div class="objects-one col-sm-3 col-md-3">
+                                                <div class="rightborder-one">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Job Search</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#" style="color: #0abde3" ;>
+                                                                Contracting with Hudson
+                                                                <i style="font-size: 14px; color: #28c3e4; margin-left: 10px" class="fas fa-angle-right rightarrow"></i>
+                                                            </a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Career Advice</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Working in Australia</a>
+                                                        </h5>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="objects-two col-sm-2 col-md-2">
+                                                <div class="rightborder-two">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Contracting FAQ`s</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Timesheet Portal</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="objects-three col-sm-4 col-md-4">
+                                                <div class="rightborder-three">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Last Insight</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <a href="#">
+                                                            <img class="lastins-hover" src="images/lastins.png" alt="Alternate Text" />
+                                                        </a>
+                                                    </p>
+                                                    <p class="menu-object">
+
+                                                        <a href="#">
+                                                            <span class="picture-text">Find out what you`re worth</span>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="objects-four col-sm-3 col-md-3">
+                                                <p class="menu-object">
+                                                    <h5>
+                                                        <a href="#">Features Article</a>
+                                                    </h5>
+                                                </p>
+                                                <p class="menu-object">
+                                                    <a href="#">
+                                                        <img src="images/featureart.png" alt="Alternate Text" />
+                                                    </a>
+                                                </p>
+                                                <p class="menu-object">
+                                                    <a href="#">
+                                                        <span class="picture-text">Find out what you`re worth</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="straight-line"> | </li>
+                        <li class="dropdown main-custom">
+                            <a href="#" class="dropdown-toggle size-md" data-toggle="dropdown" role="button">WHAT WE DO</a>
+
+                            <div class="dropdown-menu biggestmenu">
+                                <div class="container main-menu">
+                                    <div class="triangle-up-what"></div>
+                                    <div class="big-menu-hover">
+                                        <div class="row">
+
+                                            <div class="objects-one col-sm-3 col-md-3">
+                                                <div class="rightborder-one">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Job Search</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#" style="color: #0abde3" ;>
+                                                                Contracting with Hudson
+                                                                <i style="font-size: 14px; color: #28c3e4; margin-left: 20px" class="fas fa-angle-right rightarrow"></i>
+                                                            </a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Career Advice</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Working in Australia</a>
+                                                        </h5>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="objects-two col-sm-2 col-md-2">
+                                                <div class="rightborder-two">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Contracting FAQ`s</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Timesheet Portal</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="objects-three col-sm-4 col-md-4">
+                                                <div class="rightborder-three">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Last Insight</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <a href="#">
+                                                            <img src="images/lastins.png" alt="Alternate Text" />
+                                                        </a>
+                                                    </p>
+                                                    <p class="menu-object">
+
+                                                        <a href="#">
+                                                            <span class="picture-text">Find out what you`re worth</span>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="objects-four col-sm-3 col-md-3">
+                                                <p class="menu-object">
+                                                    <h5>
+                                                        <a href="#">Features Article</a>
+                                                    </h5>
+                                                </p>
+                                                <p class="menu-object">
+                                                    <a href="#">
+                                                        <img src="images/featureart.png" alt="Alternate Text" />
+                                                    </a>
+                                                </p>
+                                                <p class="menu-object">
+
+                                                    <a href="#">
+                                                        <span class="picture-text">Find out what you`re worth</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="straight-line"> | </li>
+                        <li class="dropdown main-custom">
+                            <a href="#" class="dropdown-toggle size-md" data-toggle="dropdown" role="button">INSIGHTS</a>
+
+                            <div class="dropdown-menu biggestmenu">
+                                <div class="container main-menu">
+                                    <div class="triangle-up-ins"></div>
+                                    <div class="big-menu-hover">
+                                        <div class="row">
+                                            <div class="objects-one col-sm-3 col-md-3">
+                                                <div class="rightborder-one">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">
+                                                                Job Search
+                                                            </a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#" style="color: #0abde3;">
+                                                                Contracting with Hudson
+                                                                <i style="font-size: 14px; color: #28c3e4; margin-left: 20px;" class="fas fa-angle-right rightarrow"></i>
+                                                            </a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Career Advice</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Working in Australia</a>
+                                                        </h5>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="objects-two col-sm-2 col-md-2">
+                                                <div class="rightborder-two">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Contracting FAQ`s</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Timesheet Portal</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#"></a>
+                                                        </h5>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="objects-three col-sm-4 col-md-4">
+                                                <div class="rightborder-three">
+                                                    <p class="menu-object">
+                                                        <h5>
+                                                            <a href="#">Last Insight</a>
+                                                        </h5>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <a href="#">
+                                                            <img src="images/lastins.png" alt="Alternative text" />
+                                                        </a>
+                                                    </p>
+                                                    <p class="menu-object">
+                                                        <a href="#">
+                                                            <span class="picture-text">Find out what you`re worth</span>
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="objects-four col-sm-3 col-md-3">
+                                                <p class="menu-object">
+                                                    <h5>
+                                                        <a href="#">Features Article</a>
+                                                    </h5>
+                                                </p>
+                                                <p class="menu-object">
+                                                    <a href="#">
+                                                        <img src="images/featureart.png" alt="Alternative text" />
+                                                    </a>
+                                                </p>
+                                                <p class="menu-object">
+                                                    <a href="#">
+                                                        <span class="picture-text">Find out what you`re worth</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="straight-line"> | </li>
+                        <li class="dropdown main-custom">
+                            <a href="#" class="dropdown-toggle size-md" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class=""></span></a>
+
+
+                        <li class="straight-line"> | </li>
+                        <li class="dropdown main-custom">
+                            <a href="#" class="dropdown-toggle size-md" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">JOIN HUDSON<span class=""></span></a>
+
+                        </li>
+                        <li class="straight-line"> | </li>
+                        <li class="dropdown main-custom">
+                            <a href="#" class="dropdown-toggle size-md" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT US<span class=""></span></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="hero-unit-inner h_unit">
+                <div class="row">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="active item">
+                                <div class="jumbotron-inner text-center">
+                                    <h1>Discover talent</h1>
+                                    <h4>Unearth the leadership potential of your team.</h4>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="jumbotron-inner text-center">
+                                    <h1>Discover talent</h1>
+                                    <h4>Unearth the leadership potential of your team.</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <img class="arrowcarouselleft" src="images/arrow-left.png" alt="Alternate Text" />
+                            <span class="sr-only">Previous</span>
+
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <img class="arrowcarouselright" src="images/arrow-right.png" alt="Alternate Text" />
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bluebox-two-rows">
+        <div class="container blue-box">
+            <div class="bigmenuhover">
+                <div class="row custom-row-bluebox">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="col-xs-6 col-sm-4 col-md-4"><input type="text" placeholder="Keywords" class="form-control" id="text2" style="border: 1px solid white;"></div>
+                        <div class="col-xs-6 col-sm-4 col-md-4">
+                            <div class="dropdown dropdown-blue-tab">
+
+                                <button class="btn-custom-location  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Location
+
+                                    <i class="fas fa-angle-down" aria-hidden="true" style="float: right; padding-top: 5px; margin-right: 10px; font-size: 20px;"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">Location 1</a></li>
+                                    <li><a href="#">Location 2</a></li>
+                                    <li><a href="#">Location 3</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <button type="submit" class="btn  button-blue-tab">SEARCH JOBS</button>
+                            <div class="mobile-shape"></div>
+                        </div>
+                    </div>
+                    <div class="shape-one col-sm-12 hidden-xs"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="browse-md">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4 hidden-xs" style="position: static !important;">
+                                    <ul class="nav navbar-nav navigationbig-hover-browse">
+                                        <li class="dropdown main-custom-browse-left">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                Browse jobs by Industry
+                                                <i class="fas fa-angle-down" style="font-size: 16px; margin-left: 10px;"></i>
+                                            </a>
+
+                                            <div class="dropdown-menu bluebox-big-menu">
+                                                <div class="container big-menu-md">
+                                                    <div class="triangle-industry"></div>
+                                                    <div class="browse-hover">
+                                                        <div class="row">
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting & Finance</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Analytics</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Business Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Engineering</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">human Resources</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Marketing, Communications & Digital</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Policy & program</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Project Management & PMO</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Property & Construction</a>
+                                                                </p>
+                                                                <p class="menu-object">
+
+                                                                    <a href="#">Risk & Compliance</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#"></a>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Senior Executive</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Supply Chain & Procurement</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Technology & Digital</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 hidden-xs" style="position: static;">
+                                    <ul class="nav navbar-nav navigationbig-hover-browse">
+                                        <li class="dropdown main-custom-browse">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                Browse jobs by Sector
+                                                <i class="fas fa-angle-up" style="font-size: 16px; margin-left: 10px;"></i>
+                                            </a>
+
+                                            <div class="dropdown-menu bluebox-big-menu">
+                                                <div class="container big-menu-md">
+                                                    <div class="triangle-sector"></div>
+                                                    <div class="browse-hover">
+                                                        <div class="row">
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting & Finance</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Analytics</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Business Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Engineering</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">human Resources</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Marketing, Communications & Digital</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Policy & program</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Project Management & PMO</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Property & Construction</a>
+                                                                </p>
+                                                                <p class="menu-object">
+
+                                                                    <a href="#">Risk & Compliance</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#"></a>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Senior Executive</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Supply Chain & Procurement</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Technology & Digital</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs">
+                                    <div class=""><a style="float: right; margin-top: 10px; margin-right: 15px; padding-top: 10px; color: white; font-size: 18px;" href="#"><i class="fas fa-times"></i></a></div>
+                                </div>
+
+                                <!--MOBILE blue box 2col-->
+
+                                <div class="col-xs-12 hidden-sm hidden-md hidden-lg"></div>
+                                <div class="col-xs-3 hidden-sm hidden-md hidden-lg">
+                                    <div class="text-browse">Browse jobs by:</div>
+                                </div>
+                                <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="position: static;">
+                                    <ul class="nav navbar-nav navigationbig-hover-browse">
+                                        <li class="dropdown main-custom-browse-left">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family: AkzidGroProLig;">
+                                                Industry
+                                                <i class="fas fa-angle-down" style="font-size: 12px; margin-left: 10px;"></i>
+                                            </a>
+                                            <div class="dropdown-menu mob-2rows-bluebox-big-menu">
+                                                <div class="big-menu-md">
+                                                    <div class="triangle-industry"></div>
+                                                    <div class="container browse-hover">
+                                                        <div class="row">
+                                                            <div class="col-sm-3 hidden-sm hidden-md hidden-lg">
+                                                                <div class=""><a style="float: right; margin-top: 0px; margin-right: 15px; padding-top: 10px; color: #007077; font-size: 16px;" href="#"><i class="fas fa-times"></i></a></div>
+                                                            </div>
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting & Finance</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Analytics</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Business Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Engineering</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Human Resources</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Marketing, Communications & Digital</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Policy & program</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Project Management & PMO</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Property & Construction</a>
+                                                                </p>
+                                                                <p class="menu-object">
+
+                                                                    <a href="#">Risk & Compliance</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#"></a>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Senior Executive</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Supply Chain & Procurement</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Technology & Digital</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="position: static;">
+                                    <ul class="nav navbar-nav navigationbig-hover-browse">
+                                        <li class="dropdown main-custom-browse-left">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family: AkzidGroProLig;">
+                                                Sector
+                                                <i class="fas fa-angle-down" style="font-size: 12px; margin-left: 10px;"></i>
+                                            </a>
+                                            <div class="dropdown-menu mob-2rows-bluebox-big-menu">
+                                                <div class="big-menu-md">
+                                                    <div class="triangle-sector"></div>
+                                                    <div class="container browse-hover">
+                                                        <div class="row">
+                                                            <div class="col-sm-3 hidden-sm hidden-md hidden-lg">
+                                                                <div class=""><a style="float: right; margin-top: 0px; margin-right: 15px; padding-top: 10px; color: #007077; font-size: 16px;" href="#"><i class="fas fa-times"></i></a></div>
+                                                            </div>
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting & Finance</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Accounting Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Analytics</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Business Support</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Engineering</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Human Resources</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Marketing, Communications & Digital</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Policy & program</a>
+                                                                    </h5>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Project Management & PMO</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Property & Construction</a>
+                                                                </p>
+                                                                <p class="menu-object">
+
+                                                                    <a href="#">Risk & Compliance</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#"></a>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="objects-browse col-sm-3">
+                                                                <p class="menu-object">
+                                                                    <h5>
+                                                                        <a href="#">Senior Executive</a>
+                                                                    </h5>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Supply Chain & Procurement</a>
+                                                                </p>
+                                                                <p class="menu-object">
+                                                                    <a href="#">Technology & Digital</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END Mobili blue box 2col-->
+    <!--MOBILE blue box 1col-->
+    <div class="container mob-blue-box-1col">
+        <div class="bigmenuhover">
+            <div class="row custom-row-bluebox">
+                <div class="mobile-blu-box">
+                    <div class="bluebox-one-row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="col-xs-12 col-sm-4 col-md-4"><input type="text" placeholder="Keywords" class="form-control" id="text2" style="border: 1px solid white;"></div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                <div class="dropdown dropdown-blue-tab">
+
+                                    <button class="btn-custom-location  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Location
+
+                                        <i class="fas fa-angle-down" aria-hidden="true" style="float: right; padding-top: 5px; margin-right: 10px; font-size: 20px;"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <li><a href="#">Location 1</a></li>
+                                        <li><a href="#">Location 2</a></li>
+                                        <li><a href="#">Location 3</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <button type="submit" class="btn  button-blue-tab-1col">SEARCH JOBS</button>
+                                <div class="mobile-shape"></div>
+                            </div>
+                        </div>
+
+                        <div class="shape-one col-sm-12 hidden-xs"></div>
+
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="col-xs-5 hidden-sm hidden-md hidden-lg">
+                                <div class="text-browse" style="margin-top: 8px;">Browse jobs by:</div>
+                            </div>
+                            <div class="col-xs-4 hidden-sm hidden-md hidden-lg" style="position: static;">
+
+                                <ul class="nav navbar-nav navigationbig-hover-browse">
+                                    <li class="dropdown main-custom-browse-left">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family: AkzidGroProLig; margin-top: -4px;">
+                                            Industry
+                                            <i class="fas fa-angle-down" style="font-size: 12px; margin-left: 10px;"></i>
+                                        </a>
+
+                                        <div class="dropdown-menu bluebox-big-menu">
+                                            <div class="container big-menu-md">
+                                                <div class="triangle-industry-mobile"></div>
+                                                <div class="browse-hover">
+                                                    <div class="row">
+                                                        <div class="col-sm-3 hidden-sm hidden-md hidden-lg">
+                                                            <div class=""><a style="float: right; margin-top: 0px; margin-right: 15px; padding-top: 10px; color: #007077; font-size: 16px;" href="#"><i class="fas fa-times"></i></a></div>
+                                                        </div>
+                                                        <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Accounting & Finance</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Accounting Support</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Analytics</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Business Support</a>
+                                                                </h5>
+                                                            </p>
+                                                        </div>
+                                                        <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Engineering</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">human Resources</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Marketing, Communications & Digital</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Policy & program</a>
+                                                                </h5>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Project Management & PMO</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#">Property & Construction</a>
+                                                            </p>
+                                                            <p class="menu-object">
+
+                                                                <a href="#">Risk & Compliance</a>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#"></a>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="objects-browse col-sm-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Senior Executive</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#">Supply Chain & Procurement</a>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#">Technology & Digital</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-xs-3 hidden-sm hidden-md hidden-lg" style="position: static;">
+                                <ul class="nav navbar-nav navigationbig-hover-browse">
+                                    <li class="dropdown main-custom-browse">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family: AkzidGroProLig; margin-top: -4px;">
+                                            Sector
+                                            <i class="fas fa-angle-up" style="font-size: 12px; margin-left: 10px;"></i>
+                                        </a>
+
+                                        <div class="dropdown-menu bluebox-big-menu">
+                                            <div class="container big-menu-md">
+                                                <div class="triangle-sector-mobile"></div>
+                                                <div class="browse-hover">
+                                                    <div class="row">
+                                                        <div class="col-sm-3 hidden-sm hidden-md hidden-lg">
+                                                            <div class=""><a style="float: right; margin-top: 0px; margin-right: 15px; padding-top: 10px; color: #007077; font-size: 16px;" href="#"><i class="fas fa-times"></i></a></div>
+                                                        </div>
+                                                        <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Accounting & Finance</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Accounting Support</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Analytics</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Business Support</a>
+                                                                </h5>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Engineering</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">human Resources</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Marketing, Communications & Digital</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Policy & program</a>
+                                                                </h5>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Project Management & PMO</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#">Property & Construction</a>
+                                                            </p>
+                                                            <p class="menu-object">
+
+                                                                <a href="#">Risk & Compliance</a>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#"></a>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="objects-browse col-sm-3 col-md-3 col-lg-3">
+                                                            <p class="menu-object">
+                                                                <h5>
+                                                                    <a href="#">Senior Executive</a>
+                                                                </h5>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#">Supply Chain & Procurement</a>
+                                                            </p>
+                                                            <p class="menu-object">
+                                                                <a href="#">Technology & Digital</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--END Mobile blue box col1-->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="talent-height">
+        <div class="container-talent-heading">
+            <div class="row">
+                <div class="talent-heading col-xs-12 col-sm-12 col-md-12">We know that talent drives success</div>
+            </div>
+        </div>
+        <section class="process">
+            <div class="container talent-md">
+                <div class="row image">
+
+
+                    <div class="col-sm-3 col-md-3 col-lg-3 hidden-xs">
+                        <a href="#">
+                            <div class="plan text-center">
+                                <div class="process-icon plan">&nbsp;</div>
+                                <h4 class="heading-plan">Permaznent & contract <br /> recruiment</h4>
+                            </div>
+                            <div class="hover-image">
+                                <div class="hover-image-1">
+                                    <div class="hover-image-2">
+                                        <span>Secure the right talent – people who will stay and perform</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3 col-md-3 hidden-xs">
+                        <a href="#">
+                            <div class="design text-center">
+                                <div class="process-icon idesign">&nbsp;</div>
+                                <h4 class="heading">Candidate profiling <br /> & assessments</h4>
+                            </div>
+                            <div class="hover-image">
+                                <div class="hover-image-1">
+                                    <div class="hover-image-3">
+                                        <span>Behavioural and psychological assessments to help you hire with confidence</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3 col-md-3 hidden-xs">
+                        <a href="#">
+                            <div class="develop text-center">
+                                <div class="process-icon idevelop">&nbsp;</div>
+                                <h4 class="heading">Identify & develop <br /> leaders</h4>
+                            </div>
+                            <div class="hover-image">
+                                <div class="hover-image-1">
+                                    <div class="hover-image-4">
+                                        <span>Unearth your future stars and build leadership capability</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3 col-md-3 hidden-xs">
+                        <a href="#">
+                            <div class="launch text-center">
+                                <div class="process-icon ilaunch">&nbsp;</div>
+                                <h4 class="heading">Outplacement & <br /> redeployment</h4>
+                            </div>
+                            <div class="hover-image">
+                                <div class="hover-image-1">
+                                    <div class="hover-image-5">
+                                        <span> Provide support for employees in times of change </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!--2col 2col MOBILE TALENT  -->
+
+                    <div class="talent-two-rows">
+                        <div class=" col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="row mobile-talent">
+                                <div class="col-xs-6">
+                                    <div class="mobile-img-one"></div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="mobile-heading-text">Permanent & <br> contract recruitment</div>
+                                        </div>
+
+                                        <div class="col-xs-12">
+                                            <div class="mobile-hover-text">Secure the right talent - people <br> who will stay and perform</div>
+                                            <div class="mobile-arrow"><a href="#"><i style="font-size: 18px" class="fas fa-angle-left"></i></a></div>
+                                        </div>
+                                   </div>
+                                </div>
+
+                                <div class="row mobile-talent">
+                                    <div class="col-xs-6">
+                                        <div class="mobile-img-two"></div>
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="mobile-heading-text">Candidate profiling <br /> & assessments</div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="mobile-hover-text">Behavioural and psychologic <br /> assessments to help you hire <br /> with confidance</div>
+                                                <div class="mobile-arrow"><a href="#"><i style="font-size: 18px" class="fas fa-angle-left"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="row mobile-talent">
+                                <div class="col-xs-6">
+                                    <div class="mobile-img-three"></div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="mobile-heading-text"> Identify & develop leaders</div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class="mobile-hover-text"> Unearth your future stars and <br /> build leadership capability</div>
+                                            <div class="mobile-arrow"><a href="#"><i style="font-size: 18px" class="fas fa-angle-left"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mobile-talent">
+                                    <div class="col-xs-6">
+                                        <div class="mobile-img-four"></div>
+
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="mobile-heading-text">Outplacement & <br> redeployment</div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="mobile-hover-text">Provide supportfor employees <br> in time of change</div>
+                                                <div class="mobile-arrow"><a href="#"><i style="font-size: 18px;" class="fas fa-angle-left"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--END 2col 2col MOBILE TALENT  -->
+
+                    <!-- 1col MOBILE TALENT-->
+
+                    <div class="talent-one-row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="row mobile-talent">
+                                <div class="col-xs-4">
+                                    <div class="mobile-img-one1"></div>
+                                </div>
+
+                                <div class="col-xs-8">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="mobile-heading-text2">Permanent & <br> contract recruitment</div>
+                                        </div>
+
+                                        <div class="col-xs-12">
+                                            <div class="mobile-hover-text2">Secure the right talent - people <br> who will stay and perform</div>
+                                            <div class="mobile-arrow"><a href="#"><i style="font-size: 18px" class="fas fa-angle-left"></i></a></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="row mobile-talent">
+                                <div class="col-xs-4">
+                                    <div class="mobile-img-two2"></div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="mobile-heading-text">Candidate profiling <br /> & assessments</div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class="mobile-hover-text">Behavioural and psychologic <br /> assessments to help you hire <br /> with confidance</div>
+                                            <div class="mobile-arrow"><a href="#"><i style="font-size: 18px" class="fas fa-angle-left"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="row mobile-talent">
+                                <div class="col-xs-4">
+                                    <div class="mobile-img-three3"></div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="mobile-heading-text"> Identify & develop leaders</div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class="mobile-hover-text"> Unearth your future stars and <br /> build leadership capability</div>
+                                            <div class="mobile-arrow"><a href="#"><i style="font-size: 18px" class="fas fa-angle-left"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                            <div class="row mobile-talent">
+                                <div class="col-xs-4">
+                                    <div class="mobile-img-four4"></div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="mobile-heading-text">Outplacement & <br> redeployment</div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class="mobile-hover-text">Provide supportfor employees <br> in time of change</div>
+                                            <div class="mobile-arrow"><a href="#"><i style="font-size: 18px;" class="fas fa-angle-left"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--1col END MOBILE TALENT-->
+
+                    <div class="col-sm-12 visible-sm">
+                        <div class="feature-button-talent">
+                            <button type="button"><div class="viewjobs">READ MORE</div></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="partners">
+        <div class="container partners-md">
+            <div class="row">
+                <div class="col-sm-6 hidden-xs">
+                    <div class="partners_1 row">
+                        <div class="partners_img_1">
+                            <img class="imgpartners" style="width: 100%;" src="images/network-one.png">
+                        </div>
+                        <div class="partners_text_1">
+                            <div class="partners_text_1_2">Find out what you’re worth</div> <br>
+                            <div class="partners_text_2_2">Visit the Hudson Salary Hub.</div>
+                        </div>
+                        <div class="angle">
+                            <a href="#"><i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 hidden-xs">
+                    <div class="partners_2">
+                        <div class="partners_img_2">
+                            <img class="imgpartners" style="width: 100%;" src="images/network-two.png">
+                        </div>
+                        <div class="partners_text_2">
+                            <div class="partners_text_1_2">Indigenous Emoloyment Network</div> <br>
+                            <div class="partners_text_2_2">Hudson partners will.....</div>
+                        </div>
+                        <div class="angle">
+                            <a href="#"><i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--MOBILE VERSION PARTHNERS-->
+            <div class="mob-partners">
+                <div class="mobile-parthners hidden-sm hidden-md hidden-lg">
+                    <div class="container">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            </ol>
+                                    
+                            <div class="carousel-inner" role="listbox">
+                                <div class="active item">
+                                    <div class="partners_1">
+                                        <div class="partners_img_1">
+                                            <img style="width: 100%; margin: 0; min-width: 300px; min-height: 160px;" src="images/network-one.png" />
+                                        </div>
+                                        <div class="partners_text_1">
+                                            <div class="partners_text_1_2">Find out what you’re worth</div> <br>
+                                            <div class="partners_text_2_2">Visit the Hudson Salary Hub.</div>
+                                        </div>
+                                        <div class="angle">
+                                            <a href="#"><i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <div class="partners_2">
+                                        <div class="partners_img_2">
+                                            <img style="width: 100%; margin: 0; min-width: 300px; min-height: 160px;" src="images/network-two.png" />
+                                        </div>
+                                        <div class="partners_text_2">
+                                            <div class="partners_text_1_2">Indigenous Emoloyment Network</div> <br>
+                                            <div class="partners_text_2_2">Hudson partners will.....</div>
+                                        </div>
+                                        <div class="angle">
+                                            <a href="#"><i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END MOBILE VERSION PARTHNERS-->
+        </div>
+    </div>
+
+    <section class="feature-jobs-color" style="background-color: #f0f0f0;">
+        <div class="container f-jobs">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 featureheading">Feature jobs</div>
+            </div>
+        </div>
+        <div class="container feature-md">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="feature-jobss">
+                                <div class="feature-jobs-1">
+                                    <div class="text">
+                                        <div class="feature-logo"></div>
+                                        <div class="feature-top-heading">
+                                            <div class="row">
+                                                <div class="col-lg-12 top-heading">Sales Specialist</div>
+                                                <div class="col-lg-12 heading-date">06.04.18</div>
+                                            </div>
+                                        </div>
+                                        <div class="feature-text-para">
+                                            <div class="paragraph-text">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                                dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                                pellentesque eu, pretium quis, sem.
+                                            </div>
+                                        </div>
+                                        <div class="angle-one">
+                                            <a href="#"><i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="feature-jobss">
+                                <div class="feature-jobs-2">
+                                    <div class="text">
+                                        <div class="feature-logo-1"></div>
+                                        <div class="feature-top-heading">
+                                            <div class="row">
+                                                <div class="col-sm-12 top-heading">Sales Specialist</div>
+                                                <div class="col-sm-12 heading-date">06.04.18</div>
+                                            </div>
+                                        </div>
+                                        <div class="feature-text-para">
+                                            <div class="paragraph-text">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                                dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                                pellentesque eu, pretium quis, sem.
+                                            </div>
+                                        </div>
+                                        <div class="angle-one">
+                                            <a href="#"><i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 rowstwo">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature-jobss">
+                                <div class="feature-jobs-3">
+                                    <div class="text">
+                                        <div class="feature-logo-2"></div>
+                                        <div class="feature-top-heading">
+                                            <div class="row">
+                                                <div class="col-sm-12 top-heading">Sales Specialist</div>
+                                                <div class="col-sm-12 heading-date">
+                                                    06.04.18
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="feature-text-para">
+                                            <div class="paragraph-text">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                                dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                                pellentesque eu, pretium quis, sem.
+                                            </div>
+                                        </div>
+                                        <div class="angle-one">
+                                            <a href="#"><i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="feature-jobs-4">
+                                <div class="text">
+                                    <div class="feature-logo-3"></div>
+                                    <div class="feature-top-heading">
+                                        <div class="row">
+                                            <div class="col-sm-12 top-heading">Sales Specialist</div>
+                                            <div class="col-sm-12 heading-date">06.04.18</div>
+                                        </div>
+                                    </div>
+                                    <div class="feature-text-para">
+                                        <div class="paragraph-text">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                            pellentesque eu, pretium quis, sem.
+                                        </div>
+                                    </div>
+                                    <div class="angle-one">
+                                        <a href="#"><i class="fas fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 feature-button-row">
+                    <div class="feature-button">
+                        <button type="button"><div class="viewjobs">VIEW ALL JOBS</div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="text-align: center; font-size: 36px; font-family: AkzidGroProLig; padding-top: 45px;">
+        <div class="row">
+            <div class="trustedheading col-xs-12 col-md-12 col-lg-12">Trusted clients</div>
+        </div>
+    </div>
+
+    <div class="container trusted-md">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="trusted-clients-one trusted-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="trusted-clients-two trusted-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="trusted-clients-three trusted-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="trusted-clients-four trusted-xs"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="banner2 hidden-xs">
+        <div class="container banner-2-carousel">
+            <div class="testimonials-section">
+                <div class="row">
+                    <div class="box">
+                        <div id="my-carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#my-carousel" data-slide-to="1"></li>
+                                <li data-target="#my-carousel" data-slide-to="2"></li>
+                                <li data-target="#my-carousel" data-slide-to="3"></li>                            
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <i class="fa fa-quote-left fa1" aria-hidden="true"> </i>
+                                <div class="active item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-quote-right fa2" aria-hidden="true"> </i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Mobile slider(banner2)-->
+
+    <header class="banner2 hidden-sm hidden-md hidden-lg">
+        <div class="container banner-2-carousel">
+            <div class="testimonials-section-mobile">
+                <div class="row">
+                    <div class="box-mobile">
+                        <div id="My-Carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#My-Carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#My-Carousel" data-slide-to="1"></li>
+                                <li data-target="#My-Carousel" data-slide-to="2"></li>
+                                <li data-target="#My-Carousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <i class="fa fa-quote-left fa1-mobile" aria-hidden="true"> </i>
+                                <div class="active item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="jumbotron-inner text-center">
+                                        <h4>
+                                            The marketing strategy is superb. These guys came through above and beyond <br />
+                                            expectations.
+                                        </h4>
+                                        <p>MR.GENERIC - DESIGN LAB</p>
+                                    </div>
+                                </div>
+                                <i class="fa fa-quote-right fa2-mobile" aria-hidden="true"> </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+
+        <!--END Mobile slider(banner2)-->
+
+
+        <section class="feature-articles-color" style="background-color: #f0f0f0;">
+            <div class="container-f-art" style="text-align: center; padding-top: 70px; padding-bottom: 10px; font-size: 36px; font-family: AkzidGroProLig; color: #2e2e2e;">
+                <div class="row">
+                    <div class="feature-articles-heading col-sm-12">Feature articles</div>
+                </div>      
+                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg mobile-img-articles"></div>            
+            </div>
+            <div class="container feature-article-md">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="row articles-delete-margin">
+                            <div class="col-sm-8 col-md-8 col-lg-8 col-xs-12">
+                                <div class="feature-articles">
+                                    <div class="text-articles-int">
+                                        <div class="feature-art-heading">
+                                            <div class="row articles-delete-margin">
+                                                <div class="col-sm-12 col-md-12 articles-heading-int">INTERVIEWS</div>
+                                                <div class="col-sm-12 col-md-12 articles-second-heading">
+                                                    The best question to ask in  a job interview to assess<br />
+                                                    the workplace culture
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="feature-articles-text">
+                                            <div class="articles-text hidden-xs">
+                                                When it comes to job satisfaction, there’s a special ingredient that holds the key to happi-
+                                                ness and success in a role: it’s called “cultural fit.” What questions can you ask in a job inter-
+                                            </div>
+                                            <!--Mobile version text-->
+                                            <div class="articles-text">
+                                                The best questions to ask in a job inter- view to assess the workplace culture
+                                            </div>
+                                            <!--END mobile version text-->
+                                        </div>
+                                        <div class="angle-for-articles-int">
+                                            <a href="#" class="articles-int"><i class="fas fa-angle-right articles"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 hidden-xs custom-int">
+                                <div class="img-interview"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="row articles-delete-margin">
+                            <div class="col-sm-8 col-md-8 col-lg-8 col-xs-12">
+                                <div class="feature-articles">
+                                    <div class="text-articles">
+                                        <div class="feature-art-heading">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-12 articles-heading">LEADERSHIP</div>
+                                                <div class="col-sm-12 col-md-12 articles-second-heading">
+                                                    Why we all need to start thinking, and acting, ‘like a boss’
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="feature-articles-text">
+                                            <div class="articles-text hidden-xs">
+                                                I have a question for every professional reading this: Do you consider yourself a leader?
+                                                If your answer to that was “No”, it might be time to re-think how you approach your job and
+                                                your career.
+                                            </div>
+                                            <!--Mobile version text-->
+                                            <div class="articles-text">
+                                                Why we all need to start thinking, and acting, 'like a boss'
+                                            </div>
+                                            <!--END Mobile version text-->
+                                        </div>
+                                        <div class="angle-for-articles">
+                                            <a href="#" class="articles-int"><i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs custom-lead">
+                                <div class="img-leadership"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="row articles-delete-margin">
+                            <div class="col-sm-8 col-md-8 col-lg-8 col-xs-12">
+                                <div class="feature-articles">
+                                    <div class="text-articles">
+                                        <div class="feature-art-heading">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-12 articles-heading">ASSESSMENT & PROFILING</div>
+                                                <div class="col-sm-12 col-md-12 articles-second-heading">
+                                                    How success profiling can help you make better hiring decisions
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="feature-articles-text">
+                                            <div class="articles-text hidden-xs">
+                                                Any manager who has ever hired someone who didn’t end up performing as well as expect-
+                                                ed – or perhaps was a complete disaster – knows that recruitment selection can be an
+                                                inexact science. As human beings, our unconscious...
+                                            </div>
+                                            <!--Mobile version text-->
+                                            <div class="articles-text">
+                                                How success profiling can help you make better hiring decisions
+                                            </div>
+                                            <!--END Mobile version text-->
+                                        </div>
+                                        <div class="angle-for-articles">
+                                            <a href="#" class="articles-int"><i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs custom-ass">
+                                <div class="img-assessment"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 article-button-row">
+                        <div class="article-button">
+                            <button type="button"><div class="morearticle">MORE ARTICLES</div></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="newsletter" style="clear: both;">
+            <div class="container news-md">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 news-heading">Sign up to our newsletter</div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 subscribe">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="dropdown drdp-sub-tab">
+
+                                            <button class="btn-custom-location  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: transparent; color: white;">
+                                                Select a preference
+                                                <i class="fas fa-angle-down" aria-hidden="true" style="float: right; padding-top: 5px; margin-right: 12px; font-size: 20px;"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                <li><a href="#">First Preference</a></li>
+                                                <li><a href="#">Second Preference</a></li>
+                                                <li><a href="#">Third preference</a></li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 email-section">
+                                        <input type="text" placeholder="Email" style="color: white; font-family: AkzidGroProIta;
+                                            font-size: 16px; " class="form-control" id="emailbox">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                        <button type="submit" class="btn newsletter-button">SUBSCRIBE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 news-heading-two">By subscribing to our newsletter you agree to our T&C.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container footertop" style="padding-bottom: 40px;">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <div class="logofooter"></div>
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 footer-navi">
+                            <ul class="social-icon-top-footer">
+                                <li class="socialicon-footer">
+                                    <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                                </li>
+                                <li class="socialicon-footer">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="socialicon-footer">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="socialicon-footer">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="socialicon-footer">
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <div class="container footer-links">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 links-first-column visible-md visible-lg">
+                                <ul>
+                                    <li class="footer-links-heading"><a href="#">Head Office</a></li>
+                                    <li class="footer-links-content"><a href="#">20 Bond St</a></li>
+                                    <li class="footer-links-content"><a href="#">Sydney, 2000</a></li>
+                                    <li class="footer-links-content"></li>
+                                    <li class="footer-links-content" style="margin-top: 18px;"><a href="#"><strong>t:</strong> (61 2) 8233 2222</a></li>
+                                    <li class="footer-links-content"><a href="#"><strong>t:</strong> (61 2) 8233 4900 (general)</a></li>
+                                    <li class="footer-links-content"><a href="#"><strong>t:</strong> (61 2) 8233 4955 (resume)</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-2 col-md-2 links-second-column visible-md visible-lg">
+                                <ul>
+                                    <li class="footer-links-heading"><a href="#">Navigation</a></li>
+                                    <li class="footer-links-content"><a href="#">Job Seekers</a></li>
+                                    <li class="footer-links-content"><a href="#">What we do</a></li>
+                                    <li class="footer-links-content"><a href="#">Insights</a></li>
+                                    <li class="footer-links-content"><a href="#">About us</a></li>
+                                    <li class="footer-links-content"><a href="#">Join Hudson</a></li>
+                                    <li class="footer-links-content"><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-2 col-md-2 links-third-column visible-md visible-lg">
+                                <ul>
+                                    <li class="footer-links-heading"><a href="#">Quick Links</a></li>
+                                    <li class="footer-links-content"><a href="#">Submit CV</a></li>
+                                    <li class="footer-links-content"><a href="#">Create a job alert</a></li>
+                                    <li class="footer-links-content"><a href="#">Submit a brief</a></li>
+                                    <li class="footer-links-content"><a href="#">Submit an inquiry</a></li>
+                                    <li class="footer-links-content"><a href="#">Find a consultant</a></li>
+                                    <li class="footer-links-content"><a href="#">Register / Login</a></li>
+                                </ul>
+                            </div>
+
+                            <!--FOR TABLET VERSION + Button:Back to top-->
+                            <div class="col-sm-4 col-md-4 links-first-column visible-sm">
+                                <ul class="head-office-ul">
+                                    <li class="footer-links-heading"><a href="#">Head Office</a></li>
+                                    <li class="footer-links-content"><a href="#">20 Bond St</a></li>
+                                    <li class="footer-links-content"><a href="#">Sydney, 2000</a></li>
+                                    <li class="footer-links-content"></li>
+                                    <li class="footer-links-content" style="margin-top: 18px;"><a href="#"><strong>t:</strong> (61 2) 8233 2222</a></li>
+                                    <li class="footer-links-content"><a href="#"><strong>t:</strong> (61 2) 8233 4900 (general)</a></li>
+                                    <li class="footer-links-content"><a href="#"><strong>t:</strong> (61 2) 8233 4955 (resume)</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4 tablet-link-second-column visible-sm">
+                                <ul>
+                                    <li class="footer-links-heading"><a href="#">Navigation</a></li>
+                                    <li class="footer-links-content"><a href="#">Job Seekers</a></li>
+                                    <li class="footer-links-content"><a href="#">What we do</a></li>
+                                    <li class="footer-links-content"><a href="#">Insights</a></li>
+                                    <li class="footer-links-content"><a href="#">About us</a></li>
+                                    <li class="footer-links-content"><a href="#">Join Hudson</a></li>
+                                    <li class="footer-links-content"><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-7 col-md-7 tablet-link-third-column visible-sm">
+                                <ul>
+                                    <li class="footer-links-heading"><a href="#">Quick Links</a></li>
+                                    <li class="footer-links-content"><a href="#">Submit CV</a></li>
+                                    <li class="footer-links-content"><a href="#">Create a job alert</a></li>
+                                    <li class="footer-links-content"><a href="#">Submit a brief</a></li>
+                                    <li class="footer-links-content"><a href="#">Submit an inquiry</a></li>
+                                    <li class="footer-links-content"><a href="#">Find a consultant</a></li>
+                                    <li class="footer-links-content"><a href="#">Register / Login</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-1 col-md-1 links-four-column visible-sm">
+                                <button class="topBtn"><i class="fas fa-angle-up btn-back2top"></i><h5 class="back2top">BACK TO TOP</h5></button>
+
+                            </div>
+                            <!--END TABLET VERSION + Button: Back to top-->
+
+                            <div class="col-sm-5 col-md-5 visible-md visible-lg">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <ul class="sectorrr-jobs">
+                                            <li class="footer-links-heading"><a href="#">Jobs by Sector</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-6">
+                                        <ul class="sector-jobs">
+                                            <li class="footer-links-content"><a href="#">Accounting</a></li>
+                                            <li class="footer-links-content"><a href="#">Administration & Office Support</a></li>
+                                            <li class="footer-links-content"><a href="#">Banking & Financial Services</a></li>
+                                            <li class="footer-links-content"><a href="#">Construction</a></li>
+                                            <li class="footer-links-content"><a href="#">Engineering</a></li>
+                                            <li class="footer-links-content"><a href="#">Goverment & Defence</a></li>
+                                            <li class="footer-links-content"><a href="#">Human Resources & Recruiment</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="last-col col-sm-6 col-md-6 col-lg-6">
+                                        <div class="">
+                                            <ul>
+                                                <li class="footer-links-content"><a href="#">Information & Com Technology</a></li>
+                                                <li class="footer-links-content"><a href="#">Legal</a></li>
+                                                <li class="footer-links-content"><a href="#">Manufacturing, Transport<br /> & Logistics</a></li>
+                                                <li class="footer-links-content"><a href="#">marketing & Communication</a></li>
+                                                <li class="footer-links-content"><a href="#">Sales</a></li>
+                                                <li class="footer-links-content"><a href="#">Real Estate & Property</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last-part-footer hidden-xs">
+                <div class="container lastfooter-md">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4"></div>
+                                <ul class="last-footer-nav">
+                                    <li><a href="#">Sitemap</a></li>
+                                    <li class="straight-line-footer">|</li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li class="straight-line-footer">|</li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li class="straight-line-footer">|</li>
+                                    <li><a href="#">Powered by Jtx</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Mobile footer-->
+            <div class="container mob-lastpart-footer hidden-sm hidden-md hidden-lg">
+                <div class="row">
+                    <ul class="mob-lastfooter-nav">
+                        <li><a href="#">Sitemap</a></li>
+                        <li class="span_conqers_1"> | </li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li class="span_conqers_1"> | </li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li class="span_conqers_1"> | </li>
+                        <li><a href="#">Powered by Jtx</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--END Mobile footer-->
+
+            <div class="container lastfooter-md mobile-footer-navi hidden-sm hidden-md hidden-lg">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="col-xs-3"><a href="#"><i class="far fa-paper-plane"></i></a></div>
+                        <div class="col-xs-3"><a href="#"><i class="fas fa-search"></i></a></div>
+                        <div class="col-xs-3"><a href="#"><i class="far fa-edit"></i></a></div>
+                        <div class="col-xs-3"><a href="#"><i class="far fa-bell"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="javascript/script.js"></script>
+</body>
+    </html>
+
+
+
